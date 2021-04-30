@@ -1,12 +1,8 @@
 # DIY Split-Flap Display
 
-This is a work in progress DIY [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display).
-Prototype four-character display: [video](https://www.youtube.com/watch?v=vq4o_88kN8g).
+This is a work in progress DIY [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display). This is a fork of scottbez1/splitflap where the display housing has been modified to be use 3D printed parts and acrylic panels with the goal of producing a more compact design. 
 
 <img src="/renders/SplitFlapExplode.gif" width="420" height="250"/>
-
-
-[![prototype video](renders/prototypeVideoThumbnail.jpg)](https://www.youtube.com/watch?v=vq4o_88kN8g)
 
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml/badge.svg?branch=dev/newBoard)](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml)
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml/badge.svg?branch=dev/newBoard)](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml)
