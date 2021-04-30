@@ -2,7 +2,7 @@
 
 This is a work in progress DIY [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display). This is a fork of [scottbez1/splitflap](https://github.com/scottbez1/splitflap) where the display housing has been modified to be use 3D printed parts and acrylic panels with the goal of producing a more compact design. 
 
-<img src="/renders/SplitFlapExplode.gif" width="800" height="520"/>
+<img src="/renders/SplitFlapExplode.gif" width="750" height="520"/>
 
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml/badge.svg?branch=dev/newBoard)](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml)
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml/badge.svg?branch=dev/newBoard)](https://github.com/scottbez1/splitflap/actions/workflows/electronics.yml)
