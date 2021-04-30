@@ -14,21 +14,6 @@ The goal is to make a low-cost display that's easy to fabricate at home in small
 <a href="https://www.youtube.com/watch?v=UAQJJAQSg_g" target="_blank"><img src="https://img.youtube.com/vi/UAQJJAQSg_g/maxresdefault.jpg" alt="How a split-flap display works" width="640"></a>
 
 
-### Current Status
-[You can download the **latest stable release** from the official 'releases' page.](https://github.com/scottbez1/splitflap/releases/latest)
-
-Releases have been tested and used to produce working units, but as this is a DIY project, there may always be minor issues and/or incomplete documentation.
-
-| Component | Status | Notes |
-| --- | --- | --- |
-| Enclosure/Mechanics | *Stable* | |
-| Classic Controller Electronics | *Stable* | |
-| New Chainlink Electronics | *Alpha* | Next-generation/alternative electronics, designed for easier assembly and larger displays |
-| Firmware | *Stable* | |
-| Control Software Example | *Stable* | Example python code for driving the display is in the [software](software) directory|
-
-
-
 ### Design Highlights
 * laser cut enclosure and 3D printed motor housing
 * cheap, widely available 28byj-48 stepper motor (less expensive than NEMA-17 motors, and doesn't require an expensive high current stepper driver)
