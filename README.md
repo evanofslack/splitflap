@@ -3,7 +3,7 @@
 This is a work in progress DIY [split-flap display](https://en.wikipedia.org/wiki/Split-flap_display).
 Prototype four-character display: [video](https://www.youtube.com/watch?v=vq4o_88kN8g).
 
-![animated rendering](https://s3.amazonaws.com/splitflap-artifacts/master/3d/3d_animation.gif)
+![animated rendering](renders/SplitFlapExplode.gif)
 [![prototype video](renders/prototypeVideoThumbnail.jpg)](https://www.youtube.com/watch?v=vq4o_88kN8g)
 
 [![Build Status](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml/badge.svg?branch=dev/newBoard)](https://github.com/scottbez1/splitflap/actions/workflows/3d.yml)
