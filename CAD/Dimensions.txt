@@ -1,0 +1,3 @@
+﻿"Depth"= 90mm
+"Height"= 140mm
+"Width"= 64mm
