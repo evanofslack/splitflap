@@ -23,7 +23,7 @@ digitalWrite(C,c);
 digitalWrite(D,d);
 }
 
-void onestep(){
+void oneStep(){
 write(1,0,0,0);
 delay(1);
 write(1,1,0,0);
@@ -37,8 +37,27 @@ delay(1);
 write(0,0,1,1);
 delay(1);
 write(0,0,0,1);
- delay(1);
+delay(1);
 write(1,0,0,1);
+delay(1);
+}
+
+void reverseStep(){
+write(1,0,0,1);
+delay(1);
+write(0,0,0,1);
+delay(1);
+write(0,0,1,1);
+delay(1);
+write(0,0,1,0);
+delay(1);
+write(0,1,1,0);
+delay(1);
+write(0,1,0,0);
+delay(1);
+write(1,1,0,0);
+delay(1);
+write(1,0,0,0);
 delay(1);
 }
 
@@ -47,6 +66,6 @@ int i = 0;
 void loop(){
 
 while(i<NUMBER_OF_STEPS_PER_REV){
-onestep();
+reverseStep();
 i++;}
 }
