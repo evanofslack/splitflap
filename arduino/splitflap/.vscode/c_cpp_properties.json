@@ -1,0 +1,72 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/include",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/Splitflap",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit SSD1306",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit GFX Library@1.10.4",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit BusIO",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit NeoPixel",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit GFX Library",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/include",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/Splitflap",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit SSD1306",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit GFX Library@1.10.4",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit BusIO",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit NeoPixel",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/Users/evan/Documents/GitHub/splitflap/arduino/splitflap/.pio/libdeps/uno-shift-register/Adafruit GFX Library",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/evan/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "ARDUINO_AVR_UNO",
+                "SPI_IO=true",
+                "REVERSE_MOTOR_DIRECTION=false",
+                "NEOPIXEL_DEBUGGING_ENABLED=true",
+                "SSD1306_DISPLAY=false",
+                "INA219_POWER_SENSE=false",
+                "SPLITFLAP_PIO_HARDWARE_CONFIG",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/evan/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
