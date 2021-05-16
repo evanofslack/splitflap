@@ -1,3 +1,3 @@
-﻿"Depth"= 90mm
-"Height"= 140mm
-"Width"= 64mm
+﻿"Width"= 64mm
+"Height" = 150mm
+"Depth"= 90mm
