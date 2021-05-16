@@ -5,12 +5,15 @@ from splitflap import ask_for_serial_port
 
 
 def run():
+    #Test new serial initialization
+    #port = serial.Serial("/dev/cu.usbmodem141101", baudrate=38400, timeout=3.0)
     port = ask_for_serial_port()
 
-    print('Starting...')
+    print('Starting...\n')
     with splitflap(port) as s:
         characters = s.get_character_list()
         num_flaps = len(characters)
+        print(num_flaps)
 
         # make sure all modules are home'd before we continue
         while(True):
