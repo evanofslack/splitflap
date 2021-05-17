@@ -13,7 +13,6 @@ def run():
     with splitflap(port) as s:
         characters = s.get_character_list()
         num_flaps = len(characters)
-        print(num_flaps)
 
         # make sure all modules are home'd before we continue
         while(True):
