@@ -24,7 +24,7 @@ def run():
             print('Going to {}'.format(word))
             status = s.set_text(word)
             s.print_status(status)
-            time.sleep(10)
+            time.sleep(3.5)
 
 
 if __name__ == '__main__':
