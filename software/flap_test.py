@@ -36,7 +36,7 @@ def run():
             if index == 0:
                 break  # we're back home
             index = (index + 1) % num_flaps
-            sleep(1)
+            sleep(.6)
 
 
 if __name__ == '__main__':
