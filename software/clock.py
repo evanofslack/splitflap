@@ -4,7 +4,6 @@
 # Set splitflap display to show current time
 # Flash Arduino with main splitflap code then disconnect
 # from serial and run this file from terminal
-#
 
 from splitflap import splitflap
 from splitflap import ask_for_serial_port
@@ -25,8 +24,6 @@ def setTime():
                 status = s.set_text(string)
                 s.print_status(status)
                 time.sleep(1)
-            
-
 
 if __name__ == '__main__':
     setTime()
